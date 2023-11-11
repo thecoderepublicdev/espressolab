@@ -2,8 +2,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@hooks": ["./hooks/*"],
-      "@styles": ["./styles/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@styles/*": ["./styles/*"],
       "@components/*": ["./components/*"],
       "@layout/*": ["./components/layout/*"],
     }
